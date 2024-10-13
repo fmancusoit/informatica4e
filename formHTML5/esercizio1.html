@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 1</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <form>
+        
+        <div class="gruppo">
+            <label>Cognome e nome:</label>
+            <input type="text" name="CognomeNome" placeholder="Mario Rossi" required>
+        </div>
+
+        <div class="gruppo">
+            <label>Commenti:</label>
+            <textarea placeholder="I tuoi commenti qui" name="Commenti"></textarea>
+        </div>
+
+        <div class="gruppo">
+            <label>Password:</label>
+            <input type="password" autocomplete="new-password" name="Password" required>
+        </div>
+
+        <div class="gruppo">
+            <label>Patente:</label>
+            <div class="colonna">
+                <div class="riga">
+                    <input type="radio" name="Patente" value="Veicoli motore" required> Veicoli motore
+                </div>
+                <div class="riga">
+                    <input type="radio" name="Patente" value="Imbarcazioni"> Imbarcazioni
+                </div>
+                <div class="riga">
+                    <input type="radio" name="Patente" value="Altro"> Altro
+                </div>
+                <div class="riga">
+                    Specificare: <input type="text" name="Altro" placeholder="Altro">
+                </div>
+            </div>
+        </div>
+
+        <div class="gruppo">
+            <label>Patente:</label>
+            <div class="colonna">
+                <div class="riga">
+                    <input type="checkbox" name="PatenteTipo" value="tipo A"> tipo A
+                </div>
+                <div class="riga">
+                    <input type="checkbox" name="PatenteTipo" value="tipo B"> tipo B
+                </div>
+                <div class="riga">
+                    <input type="checkbox" name="PatenteTipo" value="tipo C"> tipo C
+                </div>
+                <div class="riga">
+                    <input type="checkbox" name="PatenteTipo" value="tipo D"> tipo D
+                </div>                
+            </div>
+        </div>
+
+        <div class="gruppo">
+            <label>Regione:</label>
+            <select name="Regione" required>
+                <option value="Calabria">Calabria</option>
+                <option value="Lazio">Lazio</option>
+                <option value="Lombardia">Lombardia</option>
+            </select>
+        </div>
+
+        <div class="gruppo">
+            <label>Città:</label>
+            <select name="Citta" multiple required>
+                <option value="Catanzaro">Catanzaro</option>
+                <option value="Roma">Roma</option>
+                <option value="Milano">Milano</option>
+            </select>
+        </div>
+
+        <div class="gruppo">
+            <label>Carica un file:</label>
+            <input type="file">
+        </div>
+        
+        <div class="pulsanti">
+            <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+    
+</body>
+</html>

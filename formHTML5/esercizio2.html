@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 2</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <form>
+        <h1>Modulo rilevazione temperatura</h1>
+        <br>
+        <div class="gruppo evidenziato">
+            <label>Località:</label>
+            <input type="text" name="localita" placeholder="Catanzaro" required>
+            <label>Nazione:</label>
+            <input type="text" name="nazione" placeholder="Italia" required>
+        </div>
+
+        <div class="gruppo">
+            <label>Data</label>
+            <input type="date" name="data" required>
+        </div>
+
+        <div class="gruppo">
+            <label>Ora</label>
+            <input type="text" name="ora" required>
+        </div>
+
+        <div class="gruppo">
+            <label>Tipo di rilevazione:</label>
+            <div class="colonna">
+                <div class="riga">
+                    <input type="radio" name="rilevazione" value="OFC" required> OFC
+                </div>
+                <div class="riga">
+                    <input type="radio" name="rilevazione" value="AMB"> AMB
+                </div>
+                <div class="riga">
+                    <input type="radio" name="rilevazione" value="DRA"> DRA
+                </div>
+            </div>
+        </div>
+
+        <div class="gruppo">
+            <label>Umidità:</label>
+            <select name="umidita" required>
+                <option value="assoluta">Assoluta</option>
+                <option value="relativa">Relativa</option>
+            </select>
+        </div>
+
+        <div class="gruppo">
+            <label>Meteo attuale:</label>
+            <select name="meteo" required>
+                <option value="Pioggia">Pioggia</option>
+                <option value="Sereno">Sereno</option>
+                <option value="Ventoso">Ventoso</option>
+                <option value="Umido">Umido</option>
+                <option value="Foschia">Foschia</option>
+            </select>
+        </div>
+
+        <div class="gruppo">
+            <label>Altitudine:</label>
+            <input type="text" name="altitudine" required>
+        </div>
+        
+        <div class="pulsanti">
+            <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+    
+</body>
+</html>
