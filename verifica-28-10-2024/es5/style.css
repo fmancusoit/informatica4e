@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+/* --- CSS AGGIUNTO --- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu, .menu * {
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 20px;
+    color: #0099cc;
+}
+
+.menu ul a {
+    color: #0099cc;
+    text-decoration: none;
+
+}
+
+.ancora {
+    scroll-margin-top: 130px; 
+}
+
+/* --- FINE CSS AGGIUNTO --- */
+
+main {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+h2 {
+    color: #0099cc;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #0099cc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+.indice {
+    text-align: right;
+    margin-top: -10px;
+}
+
+.collegamento {
+    text-decoration: none;
+    color: #0077cc;
+    margin-left: 20px;
+}

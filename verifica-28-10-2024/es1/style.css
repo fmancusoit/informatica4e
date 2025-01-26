@@ -1,0 +1,23 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, input[type=text], button, textarea, select {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffebcd;
+    font-size: 18px;
+    line-height: 1.4em;
+    padding: 20px; /* è più corretto usare il padding al posto del margin in questo caso */
+}
+
+h1 {
+    color: #ff5733;
+    text-align: center;
+}
+
+p {
+    color: #0077b6;
+}

@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, input[type=text], button, textarea, select {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #e1ffbf;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #333;
+    padding: 20px; /* è più corretto usare il padding al posto del margin in questo caso */
+}
+
+h1 {
+    color: #4b0082;
+    text-align: center;
+}
+
+p {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+}
